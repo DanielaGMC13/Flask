@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/main.css">
+    <title>Bicicletas</title>
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <div class="col-md-4 offset-md-4">
+            <h1 class="fs-3 text-center">Bicicletas </h1>
+
+            <form class="card card-body bg-dark text-white" id="bicicletaForm">
+
+
+                <label for="nombre">nombre del comprador</label>
+                <input name="nombre" type="text" placeholder="" class="form-control mb-2" required />
+
+                <label for="apellido">apellido del comprador</label>
+                <input name="apellido" type="text" placeholder="" class="form-control mb-2" required />
+
+                <label for="fecha">fecha</label>
+                <input name="fecha" type="text" placeholder="" class="form-control mb-2" required />
+
+                <label for="marca">marca</label>
+                <input name="marca" type="text " class="form-control mb-2" required />
+
+                <button class="btn btn-primary">guardar</button>
+            </form>
+
+
+            <ul id="bicicletaList" class="list-group-item"></ul>
+            <img src="/static/bicicleta1.png" width="200">
+
+
+        </div>
+    </div>
+
+    <script src="/static/main.js"></script>
+</body>
+
+</html>

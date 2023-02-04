@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(124, 168, 206);
+    padding: 30px;
+}
+
+
+
+
+.container .list-group-item{
+    background: rgb(111, 150, 185);
+}
+
+.container .card .btn{
+    background-color: brown;
+}

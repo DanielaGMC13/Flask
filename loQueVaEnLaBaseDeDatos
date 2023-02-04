@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS bicicleta(id SERIAL PRIMARY KEY NOT NULL,
+                                                           nombre VARCHAR(255) NOT NULL,
+                                                                               apellido VARCHAR(255) NOT NULL,
+                                                                                                     fecha VARCHAR(255) NOT NULL,
+                                                                                                                        marca VARCHAR(255) NOT NULL);
+
+
+select *
+from bicicleta
